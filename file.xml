@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.32100000000000006" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2017-05-08T10:29:44" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="task list test" timestamp="2017-05-08T10:29:44" tests="6" file="D:\Lalit\Odesk_Projects\Marcin\solutions\backend\test\todo.test.js" failures="0" time="0.32100000000000006">
+    <testcase name="task list test Todo with empty parameter and return 400 (Bad Request) error" time="0.053" classname="Todo with empty parameter and return 400 (Bad Request) error">
+    </testcase>
+    <testcase name="task list test Todo with insert new task and return 200" time="0.176" classname="Todo with insert new task and return 200">
+    </testcase>
+    <testcase name="task list test Edit existing task with invalid id and return 400" time="0.012" classname="Edit existing task with invalid id and return 400">
+    </testcase>
+    <testcase name="task list test Edit existing task and return 200" time="0.027" classname="Edit existing task and return 200">
+    </testcase>
+    <testcase name="task list test GET all the task list" time="0.028" classname="GET all the task list">
+    </testcase>
+    <testcase name="task list test filter by status and parameter should be status" time="0.025" classname="filter by status and parameter should be status">
+    </testcase>
+  </testsuite>
+</testsuites>
