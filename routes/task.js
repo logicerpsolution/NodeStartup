@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
-var mongoose = require('mongoose');
-var ObjectId = require('mongodb').ObjectId;
+//var mongoose = require('mongoose');
+//var ObjectId = require('mongodb').ObjectId;
 var bodyParser  = require("body-parser");
 var taskservice = require('../services/task.service')
 
@@ -20,7 +20,7 @@ router.get("/", function (req, res, next) {
 });
 
 
-
+/*
 
 router.post('/', function (req, res) {
     if (typeof req.body.title==="undefined" || typeof req.body.description==="undefined" || req.body.description==="" || req.body.title==="")
@@ -121,6 +121,6 @@ router.get("/filter", function (req, res) {
                 .end();
         })
 
-});
+});*/
 
 module.exports = router;

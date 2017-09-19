@@ -5,8 +5,8 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var task = require('./routes/task');
-var mongoose = require('mongoose');
-mongoose.connect('mongodb://mongo:27017/todo');
+//var mongoose = require('mongoose');
+//mongoose.connect('mongodb://mongo:27017/todo');
 var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
